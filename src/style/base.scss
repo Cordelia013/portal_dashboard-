@@ -1,0 +1,66 @@
+:root {
+    /* Couleurs */
+    --primary-color: #925FE2;
+    /* --secondary-color: #2ecc71; */
+    /* --accent-color: #e74c3c; */
+    --text-color: #000;
+    --background-color: #fff;
+
+    /* Tailles de police */
+    --base-font-size: 16px;
+    --heading-font-size: 32px;
+    --subheading-font-size: 20px;
+    --small-font-size: 18px; 
+
+    --font-weight-bold: 600;
+    --font-weight-normal: 400;
+
+    /* Espacements */
+    --base-spacing: 10px;
+    --small-spacing: 5px;
+    --large-spacing: 20px;
+
+    --base-gap: 12px;
+    --small-gap: 24px;
+    --large-gap: 48px;
+
+    /* Autres */
+    --border-radius-large: 24px;
+    --border-radius-small: 4px;
+    --transition-speed: 0.3s;
+}
+
+html, body {
+    box-sizing: border-box;
+    width: auto;
+    height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: var(--base-font-size);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: var(--heading-font-size);
+    font-weight: var(--font-weight-bold);
+}
+
+h2 {
+    font-size: var(--subheading-font-size);
+    font-weight: var(--font-weight-normal);
+}
+
+h3 {
+    font-size: var(--subheading-font-size);
+    font-weight: var(--font-weight-normal);
+}
+
+p {
+    font-size: var(--base-font-size);
+    font-weight: var(--font-weight-normal);
+}
